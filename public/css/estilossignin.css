@@ -1,0 +1,42 @@
+.card {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: solid 3px #4DB198;
+    background-image: url(/img/fondo.jpg);
+    height: 430px;
+}
+.card img {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border: solid 2px #4DB198;
+}
+.form-group {
+    text-align: center;
+}
+.form-group input {
+    text-decoration: none;
+    margin: 10px;
+    border: 1px solid #4DB198;
+    width: 330px;
+    color: #4DB198;
+    font-size: 18px;
+}
+.form-group input::placeholder {
+    color: #4DB198;
+}
+.form-group button {
+    margin-top: 30px;
+    background-color: #4DB198;
+    border: 2px solid #4DB198;
+    transition: all .3s;
+}
+.form-group button:hover {
+    background-color: #4DB198;
+    border: 2px solid #4DB198;
+}
+.card-header {
+    text-align: center;
+    font-size: 30px;
+    color: #4DB198;
+    -webkit-text-stroke: 1px #4DB198;
+}
